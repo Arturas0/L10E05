@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-orange: #ff4400;
+    --clr-orange-warning: #ffc107;
+    --clr-bs-info: #0dcaf0;
+}
+
+.carousel-item img {
+    height: 45vh;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.active {
+    color: var(--clr-bs-info) !important;
+    font-weight: 700;
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    width: 70%;
+    padding: 0.25rem;
+    bottom: 0;
+    right: -1rem;
+}
+
+figure:hover figcaption {
+    padding: 0.25rem;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.bg-dark-gray {
+    background-color: rgb(48, 47, 47);
+}
+
+.carousel-caption {
+    color: black;
+}
+
+.fs-x {
+    font-size: 2rem;
+}
+
+i {
+    color: var(--clr-bs-info);
+    font-size: 1.75rem;
+    margin: 0.5rem 0
+}
